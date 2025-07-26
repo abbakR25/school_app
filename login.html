@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School App Login</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #004080, #007bff);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-wrapper {
+      display: flex;
+      background-color: rgb(235, 231, 231);
+      color: #333;
+      width: 500px;
+      max-width: 95%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    }
+    .login-image {
+      flex: 1;
+      background: url('https://images.unsplash.com/photo-1584697964192-8214fc5289c2') no-repeat center center;
+      background-size: cover;
+    }
+
+    .login-form {
+      flex: 1;
+      padding: 3rem;
+    }
+
+    .login-form h2 {
+      margin-bottom: 1.5rem;
+      color: #007bff;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 0.7rem;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .error {
+      color: red;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="login-wrapper">
+  <div class="login-image"></div>
+
+  <div class="login-form">
+    <h2>Welcome Back</h2>
+
+    <form method="POST">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required autofocus />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <button type="submit" class="submit-btn">Log In</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
