@@ -15,8 +15,8 @@ cloudTech_app is  simple, mini school management system designed to help manage 
 🛠️ Tech Stack
 (Update this section based on what you used: for example…)
 
-Frontend: HTML, CSS, JavaScript / React / Flutter
+Frontend: HTML, CSS, 
 
-Backend: Node.js / Django / Firebase / PHP
+Backend: Node.js / python
 
-Database: SQLite / MongoDB / Firebase / JSON Files
+Database: SQLite
