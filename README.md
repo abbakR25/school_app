@@ -1,4 +1,4 @@
-# school_app📚 BeAuld School
+# smart_school_app📚 BeAuld School
 cloudTech_app is  simple, mini school management system designed to help manage basic administrative tasks like student records, attendance, and class schedules. It's built as a lightweight tool ideal for small institutions, educational demos, or personal learning projects.
 
 🚀 Features
